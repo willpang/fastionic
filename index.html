@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style on the Horizon - Fastionic</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('http://googleusercontent.com/image_generation_content/2');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .container {
+            max-width: 700px;
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 1.5s ease-out;
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3em;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #d1f7ff;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.2em;
+            line-height: 1.8;
+            margin-bottom: 2em;
+            text-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 14px 28px;
+            font-size: 1.1em;
+            font-weight: 600;
+            text-transform: uppercase;
+            background-color: #ff6f61;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(255, 111, 97, 0.4);
+            letter-spacing: 0.8px;
+        }
+
+        .cta-button:hover {
+            background-color: #e85d51;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(255, 111, 97, 0.6);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Style on the Horizon</h1>
+        <p>Your search for comfortable and stylish everyday apparel is about to end. We are creating a new line of casual wear designed to fit your life, your way.</p>
+        <a href="#" class="cta-button">Be the First to Know</a>
+    </div>
+</body>
+</html>
